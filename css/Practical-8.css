@@ -116,7 +116,7 @@
   margin-right: 10px;
 }
 
-.article {
+.article1 {
   background-image: url("https://imgur.com/JyMz0CR.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -127,7 +127,6 @@
   margin-bottom: 23px;
   color: black;
 }
-
 .section-3 {
   background-color: white;
   height: 100vh;
