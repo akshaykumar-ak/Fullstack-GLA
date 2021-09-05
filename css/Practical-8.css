@@ -148,9 +148,7 @@
   border-radius: 10px;
 }
 .box img {
-  width: 90%;
-  border-radius: 30px;
-  padding: 15px;
+  width: 100%;
 }
 .box h4 {
   text-align: center;
