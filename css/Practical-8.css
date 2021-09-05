@@ -100,8 +100,10 @@
 
 .main__content {
   background-color: grey;
+  overflow: hidden;
   width: 48%;
   height: 94%;
+  padding: 10px;
   margin-left: 10px;
   color: aliceblue;
   font-size: larger;
