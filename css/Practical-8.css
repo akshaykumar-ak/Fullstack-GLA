@@ -1,189 +1,229 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+html {
+  scroll-padding: 75px;
   scroll-behavior: smooth;
 }
-.container {
-  width: 90%;
-  margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial;
 }
-
+.container {
+  width: 1400px;
+  margin: auto;
+  margin-top: 80px;
+}
+.sec1::after,
+.sec2::after,
+.sec3::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 .header {
-  background-color: grey;
-  height: 100px;
-  width: 100%;
-  line-height: 100px;
+  height: 70px;
+  background-color: gray;
+  position: fixed;
+  width: inherit;
+  top: 0;
+  line-height: 70px;
   text-align: center;
   color: white;
+  margin-bottom: 20px;
 }
-
-.header ul {
+.menu li {
   list-style: none;
   display: inline-flex;
 }
-
-.header ul li {
-  width: 150px;
-  height: 50px;
-  margin: 0px 30px;
-}
-
-.header ul li a {
-  padding: 25px;
-  height: 50px;
+.menu li a {
   text-decoration: none;
-  color: aliceblue;
-}
-
-.header ul li a:hover {
-  cursor: pointer;
-  background-color: aliceblue;
-  color: black;
-  font-weight: bold;
-}
-
-.banner {
-  background-image: url("https://i.imgur.com/qIxEnMl.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
+  font-size: 25px;
   color: white;
-  margin-top: 20px;
+  text-transform: uppercase;
+  padding: 0 30px;
 }
-
+.menu li a:hover {
+  color: black;
+}
+.menu li:hover {
+  background-color: white;
+}
+.banner {
+  height: 800px;
+  background-color: lightblue;
+  background-image: url(../Images/bg.jpg);
+  background-size: cover;
+  margin-bottom: 30px;
+}
 .banner h1 {
-  text-align: left;
-  padding: 20px;
+  color: white;
+  font-family: Arial;
+  text-transform: uppercase;
+  font-size: 50px;
+  padding: 50px;
 }
-
-.section-1 {
-  height: 70vh;
-  width: 100%;
-  margin-top: 10px;
+.sec1,
+.sec2,
+.sec3,
+.sec4 {
+  margin-bottom: 40px;
+}
+.sec1 h1,
+.sec2 h1,
+.sec3 h1,
+.sec4 h1 {
   text-align: center;
+  font-family: Arial;
+  margin-bottom: 40px;
 }
-
-.section-1 h1 {
-  padding: 20px;
-}
-
-.card {
-  width: 23%;
+.cir1 {
+  background-color: goldenrod;
+  background-image: url(../Images/cir1.png);
+  background-size: cover;
+  height: 319px;
+  width: 319px;
   border-radius: 50%;
-  height: 50vh;
-  display: inline-block;
-  margin: 0 10px;
-  overflow: hidden;
-  border: black solid;
-}
-.card img {
-  height: 100%;
-  width: 100%;
-}
-
-.section-2 {
-  height: 100vh;
-  width: 100%;
-  margin-top: 20px;
-}
-
-.Section-2__items {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 90%;
-}
-
-.main__content {
-  background-color: grey;
-  overflow: hidden;
-  width: 48%;
-  height: 94%;
-  padding: 10px;
+  float: left;
   margin-left: 10px;
-  color: aliceblue;
-  font-size: larger;
+  margin-right: 33px;
 }
-.main__content p {
-  margin-top: 10px;
+.cir2 {
+  background-color: goldenrod;
+  background-image: url(../Images/cir2.png);
+  background-size: cover;
+  height: 319px;
+  width: 319px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 33px;
 }
-.article__items {
-  width: 48%;
-  height: 95%;
+.cir3 {
+  background-color: goldenrod;
+  background-image: url(../Images/cir3.png);
+  background-size: cover;
+  height: 319px;
+  width: 319px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 33px;
+}
+.cir4 {
+  background-color: goldenrod;
+  background-image: url(../Images/cir4.png);
+  background-size: cover;
+  height: 319px;
+  width: 319px;
+  border-radius: 50%;
+  float: left;
   margin-right: 10px;
 }
-
-.article {
-  background-image: url("https://imgur.com/JyMz0CR.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 30%;
-  text-align: center;
-  margin-bottom: 23px;
-  color: black;
-}
-.section-3 {
-  background-color: white;
-  height: 100vh;
-  width: 100%;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.section-3 h1 {
-  font-size: 1.4cm;
-  margin-bottom: 5px;
-}
-
-.box {
-  background-color: lightblue;
+.left {
+  background-color: gray;
+  width: 680px;
+  height: 400px;
   float: left;
-  height: 450px;
-  width: 22%;
-  margin: 0 18px;
-  border-radius: 10px;
 }
-.box img {
-  width: 100%;
-}
-.box h4 {
-  text-align: center;
-}
-.box p {
-  overflow: hidden;
-  height: 210px;
-  padding: 10px;
-  text-align: justify;
-  font-size: larger;
-}
-.box a {
-  display: block;
-  text-decoration: none;
-  background-color: red;
-  color: aliceblue;
+.left h1 {
+  color: white;
+  text-align: left;
   padding: 5px;
-  margin: auto;
-  text-align: center;
-  border-radius: 10px;
+}
+.left p {
+  color: white;
+  font-size: larger;
+  text-align: justify;
+  margin: 10px 10px;
+}
+.right {
+  float: right;
+}
+.art1 {
+  background-color: orange;
+  background-image: url(../Images/art1.jpeg);
+  background-size: cover;
+  width: 680px;
+  height: 126px;
+  margin-bottom: 10px;
+}
+.art2 {
+  background-color: orange;
+  background-image: url(../Images/art2.jpg);
+  background-size: cover;
+  width: 680px;
+  height: 126px;
+  margin-bottom: 10px;
+}
+.art3 {
+  background-color: orange;
+  background-image: url(../Images/art3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 680px;
+  height: 126px;
+}
+.card1 {
+  background-color: lightgray;
+  height: 500px;
+  width: 319px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 33px;
+}
+.card2 {
+  background-color: lightgray;
+  height: 500px;
+  width: 319px;
+  float: left;
+  margin-right: 33px;
+}
+.card3 {
+  background-color: lightgray;
+  height: 500px;
+  width: 319px;
+  float: left;
+  margin-right: 33px;
+}
+.card4 {
+  background-color: lightgray;
+  height: 500px;
+  width: 319px;
+  float: left;
+}
+.sec3 img {
   width: 100%;
-  height: 35px;
 }
-.box a:hover {
-  background-color: blue;
-}
-
-.footer {
-  height: 100px;
-  width: 95%;
-  background-color: goldenrod;
-  margin: 20px auto;
+.sec3 h3 {
   text-align: center;
-  line-height: 40px;
-  color: aliceblue;
+  padding: 5px;
+  font-size: 25px;
+}
+.sec3 p {
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+}
+.sec3 a {
+  text-decoration: none;
+  display: block;
+  background-color: red;
+  border-radius: 9px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+}
+.sec3 a:hover {
+  background-color: goldenrod;
+}
+.footer {
+  height: 90px;
+  background-color: gray;
+  text-align: center;
+  color: white;
+}
+.footer p {
+  padding-top: 20px;
 }
