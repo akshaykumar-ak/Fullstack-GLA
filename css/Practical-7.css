@@ -1,151 +1,142 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-family: Arial;
-}
-h2 {
-  font-family: Arial;
-  color: white;
-  font-size: 30px;
 }
 .container {
-  width: 98%;
-  margin: 0 auto;
+  width: 1400px;
+  margin: auto;
+  margin-top: 20px;
+}
+.sec1::after,
+.sec2::after,
+.sec3::after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 .header {
-  margin: 1vh;
-  width: 99%;
-  line-height: 70px;
-  text-align: center;
   height: 70px;
   background-color: gray;
+  line-height: 70px;
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
 }
 .banner {
-  margin: 1vh;
-  width: 99%;
-  line-height: 600px;
-  text-align: center;
   height: 600px;
   background-color: lightblue;
-}
-.section-1 {
+  line-height: 600px;
   text-align: center;
-  width: 100%;
-  height: 50vh;
+  color: white;
+  margin-bottom: 15px;
 }
-.profile1 {
-  display: inline-block;
-  width: 24%;
-  border-radius: 50%;
-  height: 40vh;
-  background-color: goldenrod;
-}
-.profile2 {
-  width: 24%;
-  display: inline-block;
-  border-radius: 50%;
-  height: 40vh;
-  background-color: goldenrod;
-}
-.profile3 {
-  width: 24%;
-  display: inline-block;
-  border-radius: 50%;
-  height: 40vh;
-  background-color: goldenrod;
-}
-.profile4 {
-  width: 24%;
-  border-radius: 50%;
-  display: inline-block;
-  height: 40vh;
-  background-color: goldenrod;
-}
-.section-2 {
+.sec1,
+.sec2,
+.sec3,
+.sec4 {
   text-align: center;
-  width: 100%;
-  height: 55vh;
+  margin-bottom: 15px;
 }
-.maincontent {
-  line-height: 48vh;
-  text-align: center;
+.cir1 {
+  background-color: goldenrod;
+  height: 319px;
+  width: 319px;
+  border-radius: 50%;
   float: left;
-  height: 48vh;
-  margin: 1vh;
-  width: 48%;
-  background-color: gray;
+  margin-left: 10px;
+  margin-right: 33px;
 }
-.article1 {
+.cir2 {
+  background-color: goldenrod;
+  height: 319px;
+  width: 319px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 33px;
+}
+.cir3 {
+  background-color: goldenrod;
+  height: 319px;
+  width: 319px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 33px;
+}
+.cir4 {
+  background-color: goldenrod;
+  height: 319px;
+  width: 319px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+.left {
+  background-color: chartreuse;
+  width: 680px;
+  height: 400px;
+  float: left;
+  line-height: 400px;
+  color: white;
+}
+.right {
   float: right;
-  line-height: 14vh;
-  text-align: center;
-  margin: 1vh;
-  height: 14vh;
-  width: 48%;
+}
+.art1 {
   background-color: orange;
+  width: 680px;
+  height: 126px;
+  margin-bottom: 10px;
+  line-height: 126px;
+  color: white;
 }
-.article2 {
-  line-height: 14vh;
-  text-align: center;
-  margin: 1vh;
-  float: right;
-  height: 14vh;
-  width: 48%;
+.art2 {
   background-color: orange;
+  width: 680px;
+  height: 126px;
+  margin-bottom: 10px;
+  line-height: 126px;
+  color: white;
 }
-.article3 {
-  line-height: 14vh;
-  text-align: center;
-  margin: 1vh;
-  float: right;
-  height: 14vh;
-  width: 48%;
+.art3 {
   background-color: orange;
+  width: 680px;
+  height: 126px;
+  line-height: 126px;
+  color: white;
 }
-.section-3 {
-  text-align: center;
-  width: 100%;
-  height: 60vh;
-}
-.bar1 {
-  float: left;
-  margin: 1vh;
-  height: 50vh;
-  width: 24%;
+.card1 {
   background-color: red;
-}
-.bar2 {
+  height: 400px;
+  width: 319px;
   float: left;
-  width: 24%;
-  margin: 1vh;
-  height: 50vh;
-  background-color: red;
+  margin-left: 10px;
+  margin-right: 33px;
 }
-.bar3 {
-  width: 24%;
+.card2 {
+  background-color: red;
+  height: 400px;
+  width: 319px;
   float: left;
-  margin: 1vh;
-  height: 50vh;
-  background-color: red;
+  margin-right: 33px;
 }
-.bar4 {
+.card3 {
+  background-color: red;
+  height: 400px;
+  width: 319px;
   float: left;
-  width: 24%;
-  margin: 1vh;
-  height: 50vh;
-  background-color: red;
+  margin-right: 33px;
 }
-.bottom {
-  text-align: center;
-  height: 120px;
-  width: 100%;
+.card4 {
+  background-color: red;
+  height: 400px;
+  width: 319px;
+  float: left;
 }
 .footer {
+  height: 70px;
+  background-color: gray;
   line-height: 70px;
   text-align: center;
-  margin: 1vh;
-  width: 99%;
-  height: 70px;
-  background-color: plum;
+  color: white;
 }
