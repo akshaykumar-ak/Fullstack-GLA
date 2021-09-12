@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-padding: 75px;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: Arial;
+  }
+  .container {
+    width: 1400px;
+    margin: auto;
+    margin-top: 80px;
+  }
+  .sec1::after,
+  .sec2::after,
+  .sec3::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .header {
+    height: 70px;
+    background-color: gray;
+    position: fixed;
+    width: inherit;
+    top: 0;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .menu li {
+    list-style: none;
+    display: inline-flex;
+  }
+  .menu li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 30px;
+  }
+  .menu li a:hover {
+    color: black;
+  }
+  .menu li:hover {
+    background-color: white;
+  }
+  .banner {
+    height: 800px;
+    background-color: lightblue;
+    background-image: url(../Images/bg.jpg);
+    background-size: cover;
+    margin-bottom: 30px;
+  }
+  .banner h1 {
+    color: white;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 50px;
+  }
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4 {
+    margin-bottom: 40px;
+  }
+  .sec1 h1,
+  .sec2 h1,
+  .sec3 h1,
+  .sec4 h1 {
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: 40px;
+  }
+  .cir1 {
+    background-color: goldenrod;
+    background-image: url(../Images/cir1.png);
+    background-size: cover;
+    height: 319px;
+    width: 319px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 33px;
+  }
+  .cir2 {
+    background-color: goldenrod;
+    background-image: url(../Images/cir2.png);
+    background-size: cover;
+    height: 319px;
+    width: 319px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 33px;
+  }
+  .cir3 {
+    background-color: goldenrod;
+    background-image: url(../Images/cir3.png);
+    background-size: cover;
+    height: 319px;
+    width: 319px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 33px;
+  }
+  .cir4 {
+    background-color: goldenrod;
+    background-image: url(../Images/cir4.png);
+    background-size: cover;
+    height: 319px;
+    width: 319px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+  }
+  .left {
+    background-color: gray;
+    width: 680px;
+    height: 400px;
+    float: left;
+  }
+  .left h1 {
+    color: white;
+    text-align: left;
+    padding: 5px;
+  }
+  .left p {
+    color: white;
+    font-size: larger;
+    text-align: justify;
+    margin: 10px 10px;
+  }
+  .right {
+    float: right;
+  }
+  .art1 {
+    background-color: orange;
+    background-image: url(../Images/art1.jpeg);
+    background-size: cover;
+    width: 680px;
+    height: 126px;
+    margin-bottom: 10px;
+  }
+  .art2 {
+    background-color: orange;
+    background-image: url(../Images/art2.jpg);
+    background-size: cover;
+    width: 680px;
+    height: 126px;
+    margin-bottom: 10px;
+  }
+  .art3 {
+    background-color: orange;
+    background-image: url(../Images/art3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 680px;
+    height: 126px;
+  }
+  .card1 {
+    background-color: lightgray;
+    height: 500px;
+    width: 319px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 33px;
+  }
+  .card2 {
+    background-color: lightgray;
+    height: 500px;
+    width: 319px;
+    float: left;
+    margin-right: 33px;
+  }
+  .card3 {
+    background-color: lightgray;
+    height: 500px;
+    width: 319px;
+    float: left;
+    margin-right: 33px;
+  }
+  .card4 {
+    background-color: lightgray;
+    height: 500px;
+    width: 319px;
+    float: left;
+  }
+  .sec3 img {
+    width: 100%;
+  }
+  .sec3 h3 {
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+  }
+  .sec3 p {
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+  }
+  .sec3 a {
+    text-decoration: none;
+    display: block;
+    background-color: red;
+    border-radius: 9px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+  }
+  .sec3 a:hover {
+    background-color: goldenrod;
+  }
+  .footer {
+    height: 90px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+  }
+  .footer p {
+    padding-top: 20px;
+  }
+  
