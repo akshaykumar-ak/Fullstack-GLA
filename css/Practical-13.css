@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tablecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tablecontainer table{
+    height: 80vh;
+    width: 60%;
+
+}
+.tablecontainer table thead tr.plans{
+    font-size: 40px;
+    color: indigo;
+    background-color: lightblue;
+
+}
+.tablecontainer table thead tr.plans th{
+    padding: 20px;
+}
+.tablecontainer table tbody tr#btn td{
+    padding: 25px;
+}
+.tablecontainer table tbody tr.rate{
+    font-size: 30px;
+    color: green;
+}
+.heading{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-check{
+    font-size: 20px;
+    color: green;
+}
+td{
+    padding: 5px;
+    text-align: center;
+}
+.fa-times{
+    font-size: 20px;
+    color: red;
+}
+.rowclr{
+    background-color: lightblue;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: goldenrod;
+}
+tbody>tr.rowclr>:nth-child(1){
+    rgba(201, 169, 190, 0.527);
+}
+tbody>tr.rowclr>:nth-child(2){
+    background-color: rgba(183, 161, 196, 0.541);
+
+}
+tbody>tr.rowclr>:nth-child(3){
+    background-color: rgba(164, 207, 175, 0.562);
+}
+tbody>tr.rowclr>:nth-child(4){
+    background-color: rgba(206, 212, 152, 0.719);
+}
+tbody>tr.rowclr1>:nth-child(1){
+    background-color: lightseagreen;
+}
+tbody>tr.rowclr1>:nth-child(2){
+    background-color: lightpink;
+}
+tbody>tr.rowclr1>:nth-child(3){
+    background-color: lightgrey;
+}
+tbody>tr.rowclr1>:nth-child(4){
+    background-color: lightseagreen;
+}
