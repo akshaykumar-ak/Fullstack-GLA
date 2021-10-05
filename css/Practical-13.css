@@ -62,7 +62,7 @@ a:hover{
     background-color: goldenrod;
 }
 tbody>tr.rowclr>:nth-child(1){
-    rgba(201, 169, 190, 0.527);
+    background-color: rgba(201, 169, 190, 0.527);
 }
 tbody>tr.rowclr>:nth-child(2){
     background-color: rgba(183, 161, 196, 0.541);
