@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.counter-btn{
+    height: 30px;
+    width: 30px;
+    background-color: goldenrod;
+    font-size: 20px;
+}
+.displaynum{
+    width: 50px;
+    text-align: center;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+}
