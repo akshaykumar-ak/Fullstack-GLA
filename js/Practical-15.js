@@ -18,7 +18,10 @@ function checkInputs() {
 
     if (usernameValue === '') {
         setErrorFor(username, 'Username cannot be blank');
-    } else {
+    } else if (!isUsername(usernameValue)) {
+        setErrorFor(username, 'Invalid Username')
+    }
+    else {
         setSuccessFor(username);
     }
 
@@ -59,4 +62,7 @@ function setSuccessFor(input) {
 
 function isEmail(email) {
     return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+}
+function isUsername(username) {
+    return /^[a-z0-9]*$/.test(username);
 }
